@@ -1,0 +1,20 @@
+[project]
+name = "bert-text-classification"
+version = "0.1.0"
+description = "BERT 中文文本情感分类：TF-IDF 基线与 BERT 微调对比实验"
+authors = [
+    { name = "koi-yi" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=2.19.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "torch>=2.6.0",
+    "transformers>=5.17.0",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu124"
